@@ -22,7 +22,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>signin - Mantap Digital Training</title>
+<title>signup - Mantap Digital Training</title>
 <style>
     :root {
         --hijau-tua: #14532d;
