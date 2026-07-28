@@ -1,0 +1,106 @@
+
+img {
+    width: 300px;
+    height: auto;
+    margin-left: 50px;
+}
+
+
+.navbar-brand {
+    margin-left: 50px;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar {
+    background-color: #056B4B;
+
+}
+
+.navbar-nav {
+    gap: 40px;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.konten {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+
+.section {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+.section h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.isi-section {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    /* Jarak antar kartu */
+    margin: 30px;
+    /* Supaya grid rata tengah */
+}
+
+.isi1{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.isi2{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.isi3{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.isi4{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.isi5{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.isi6{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.button{
+    background-color: #056B4B;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+    padding: 5px;
+}
+
+.button a{
+    text-decoration: none;
+    color: aliceblue;
+}
