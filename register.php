@@ -12,7 +12,7 @@
                 $sql = "insert into pengguna(nama, passwords) VALUES('$username', '$password')";
                 $hasil = mysqli_query($conn, $sql);
                 if($hasil){
-                    header("Location: index.php? status=berhasil");
+                    header("Location: home.php? status=berhasil");
                 }
             }
     }
@@ -159,6 +159,11 @@
     .card-footer a:hover {
         text-decoration: underline;
     }
+
+    form a{
+        text-decoration: none;
+        color: #14532d;
+    }
 </style>
 </head>
 <body>
@@ -185,10 +190,9 @@
             </div>
 
             <button type="submit" class="btn-login" name="buatakun">Buat Akun</button>
-            <a href="login.php"  style="margin-top: 5px; display: inline-block;">Sudah punya akun?</a>
+            <a href="index.php"  style="margin-top: 5px; display: inline-block;">Sudah punya akun?</a>
         </form>
     </div>
 </div>
-
 </body>
 </html>
