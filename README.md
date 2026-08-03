@@ -1,36 +1,50 @@
-# Login & Signup System
+# Training Management System
 
-A simple Login & Signup authentication system built with PHP and MySQL. This project allows users to create an account, log in securely, and access a protected page using session-based authentication.
+A web-based Training Management System built using Native PHP and MySQL. This project provides user authentication and a training registration system where participant data is stored in a MySQL database.
 
-##  Features
+## Features
 
-- User Registration (Sign Up)
-- User Login
-- Session Authentication
-- Form Validation
-- MySQL Database Integration
-- Responsive Interface with Bootstrap
+* User registration
+* User login authentication
+* Training registration form
+* Store participant data in MySQL
+* Responsive interface
 
-## 🛠️ Built With
+## Built With
 
-- PHP
-- MySQL
-- HTML5
-- CSS3
-- Bootstrap 5
+* PHP (Native)
+* MySQL
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```text
+Training-Management-System/
+│── footer.php
+│── form.php
+│── home.php
+│── index.php
 │── koneksis.php
-├── index.php
-├── login.php
-├── signup.php
-├── logout.php
-├── style.css
+│── pendaftaran.php
+│── register.php
+└── README.md
 ```
 
-## 👨‍💻 Author
+## Installation
 
-**David**  
-Information Systems Student at Gunadarma University
+1. Clone this repository.
+2. Move the project folder to your local web server directory (`htdocs` for XAMPP or `www` for Laragon).
+3. Create a MySQL database.
+4. Import the SQL file into the database.
+5. Configure the database connection in `koneksis.php`.
+6. Start Apache and MySQL.
+7. Open the project in your browser.
+
+## Author
+
+Developed by **David Frans Maurelian Raftansyah** as a personal project to practice Native PHP, MySQL, and fundamental web development concepts.
+
+
